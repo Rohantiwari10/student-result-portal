@@ -119,7 +119,7 @@ function App() {
   return (
     <div className="container">
       <div className="card">
-        <h2>🎓 Student Result System</h2>
+        <h2>🎓 Student Result Portal</h2>
 
         <div className="search-box">
           <input
