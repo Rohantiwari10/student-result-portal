@@ -1,84 +1,73 @@
-# 🎓 Student Result Portal
+# 🎓 Student Result Management System (In Progress)
 
-A simple React-based web application that allows students to view their academic results using their enrollment number. The system demonstrates relational database design concepts and displays semester-wise performance in a structured format.
-
----
-
-## 🚀 Features
-
-* 🔍 Enrollment number based result lookup
-* 📊 Semester-wise result display
-* 📈 Automatic percentage calculation
-* ⚠️ Input validation with user-friendly messages
-* 🎨 Clean and responsive UI
+This project is being developed as a **full-stack student result management system** using modern web technologies.
 
 ---
 
-## 🧠 Concept
+## 🚀 Current Status
 
-This project is based on **relational database design** using three main tables:
+🔧 Project is under active development (Version 2)
 
-* **Students** – stores student details
-* **Subjects** – mapped with course and semester
-* **Marks** – links students with subjects
-
-The system uses **SQL JOIN operations** to retrieve and display results efficiently.
-
----
-
-## 🛠️ Tech Stack
-
-* React.js
-* JavaScript
-* MySQL (Database Design)
-* CSS
+* ✅ Restructured project from initial prototype (CRA)
+* ✅ Initialized new frontend using Vite
+* ✅ Organized project into modular structure
+* ⏳ Backend (Node.js + Express) – In progress
+* ⏳ Database integration (MySQL) – Planned
+* ⏳ Authentication & CGPA features – Planned
 
 ---
 
-## 📂 Project Structure
+## 🧱 Project Structure
 
 ```
-student-result-portal
+student-result-system/
 │
-├── frontend
-│   ├── src
-│   │   ├── App.js
-│   │   ├── App.css
-│   │
-│   └── package.json
+├── frontend/        # Vite + React (main frontend - in progress)
+├── backend/         # Node.js + Express (to be implemented)
+├── old-frontend/    # Previous CRA-based prototype (archived)
 │
 └── README.md
 ```
 
 ---
 
-## ⚙️ How It Works
+## 🛠️ Tech Stack (Planned)
 
-1. User enters enrollment number
-2. System fetches student data
-3. Results are displayed semester-wise
-4. Percentage is calculated dynamically
-
----
-
-## ⚠️ Note
-
-This project currently uses **mock data on the frontend** for demonstration purposes.
-The database schema and SQL queries are designed separately and can be integrated using a backend (e.g., Node.js + Express).
+* Frontend: React (Vite)
+* Backend: Node.js, Express
+* Database: MySQL
+* Styling: CSS
 
 ---
 
-## 🚀 Future Improvements
+## 🎯 Goal
 
-* Backend integration with MySQL
-* Admin panel for managing results
-* Authentication system
-* API-based data fetching
+To build a **real-world student result system** similar to university portals, with additional features like:
+
+* 🔐 Authentication (Enrollment + Password)
+* 📊 CGPA & performance analytics
+* 📄 Semester-wise result display
+* 🧾 Downloadable results (future scope)
+* 👨‍🏫 Admin panel (future scope)
+
+---
+
+## 📌 Note
+
+This is a redesigned version of an earlier frontend-only project.
+The current version focuses on building a **complete full-stack application**.
 
 ---
 
-## 📌 Conclusion
+## 🚧 Next Steps
 
-This project demonstrates how **relational databases and frontend technologies** can be combined to build a real-world academic result system.
+* Setup backend server (Express)
+* Design MySQL database schema
+* Build API endpoints
+* Connect frontend with backend
 
 ---
+
+## 👨‍💻 Author
+
+Rohan Tiwari
